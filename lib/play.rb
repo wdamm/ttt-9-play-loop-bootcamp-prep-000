@@ -39,6 +39,11 @@ end
 
 def play(board)
 turn(board)
+count = 1
+until count == 9
+count += 1
+turn(board)
+end
 end
 
 
