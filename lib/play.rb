@@ -38,11 +38,7 @@ end
 
 
 def play(board)
-counter = 0
-while counter < 10
 turn(board)
-counter += 1
-end
 end
 
 
